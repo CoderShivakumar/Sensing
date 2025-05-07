@@ -20,7 +20,7 @@ export const Location = () => {
       return;
     }
     console.log(`Selected city: ${selectedCity}`);
-    navigate('/somewhere');
+    navigate('/food');
   };
 
   return (
